@@ -1,0 +1,35 @@
+/* Projects.css */
+
+#projects {
+  background-image: linear-gradient(to right,#313c50, #4381dd);
+    padding: 20px;
+    text-align: center;
+  }
+  /* #4381dd */
+  #projects h2 {
+    font-size: 2.5rem;
+    color: #eaeef0;
+    margin-bottom: 40px;
+    text-decoration: underline;
+  }
+  
+  .project {
+    background-color: #030c24;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .project h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+    color: #e9dddd;
+  }
+  
+  .project p {
+    font-size: 1.5rem;
+    color: #e9dddd;
+    font-family: cursive;
+  }
+  

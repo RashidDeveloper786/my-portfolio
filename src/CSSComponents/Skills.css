@@ -1,0 +1,72 @@
+/* Skills.css */
+
+#skills {
+  background: linear-gradient(to right, #4381dd , #313c50);
+  padding: 20px;
+  
+  text-align: center;
+  /* height: 900px; */
+}
+
+#skills h2 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+
+#skills h3{
+  background-color: #42a5f5;
+  color: #fff;
+  font-size: 1.2rem;
+  /* text-align: center; */
+  padding: 10px 20px;
+  margin: 10px;
+  
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+ul {
+  border-radius: 10px;
+  background-color: #030c24;
+  list-style-type: none;
+  padding: 30px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+li {
+  
+  background-color: #0d47a1;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+li:hover {
+  
+  cursor: pointer;
+  background-color: #42a5f5;
+  
+}
+
+/* #skills h3:hover{
+  background-color: #0d47a1;
+  cursor: pointer;
+} */
+
+@media (max-width: 768px){
+  #skills{
+    height: 650px;
+  }
+}

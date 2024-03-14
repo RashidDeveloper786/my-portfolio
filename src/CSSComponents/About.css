@@ -1,0 +1,30 @@
+/* About.css */
+
+#about {
+    background-image: linear-gradient(to right,#313c50, #4381dd);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 2.5rem;
+    color: #f8efef;
+    text-decoration: underline;
+    
+  }
+
+  .about{
+    background-color: #030c24;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-family: cursive;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: #f7f5f5;
+  }
+  
